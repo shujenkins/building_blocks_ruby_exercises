@@ -18,17 +18,8 @@ substrings('below', dictionary)
 
 substrings("Howdy partner, sit down! How's it going?", dictionary)
 
-=begin
-> dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
-def substrings (word,dictionary)
-    dictionary.include?(word)
 
-  > dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
-  => ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
-  > substrings("below", dictionary)
-  => { "below" => 1, "low" => 1 }
-  =end
- # mohammad code from solutions 
- 
- 
-  
+dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+def substrings(word,dictionary)
+    dictionary.include?(word)
+end
